@@ -86,16 +86,6 @@ nav {
 #featured-products {
     text-align: center;
 }
-
-    #product-grid img {
-        position: relative;
-        display: inline;
-        width: 235px;
-        height: 205px;
-        margin-right: 37px;
-        margin-bottom: 55px;
-    }
-
     #product-grid {
         max-width: 825px;
         margin: 0 auto;
@@ -112,15 +102,6 @@ nav {
         max-width: 825px;
         margin: 0 auto;
         margin-top: 55px;
-    }
-
-    #instagram-grid img {
-        position: relative;
-        display: inline;
-        width: 235px;
-        height: 235px;
-        margin-right: 37px;
-        margin-bottom: 55px;
     }
 
 #map {
@@ -153,4 +134,8 @@ footer {
         margin-left: 40px;
         margin-top: 20px;
         letter-spacing: 5px;
+    }
+
+    footer .three.columns p {
+        letter-spacing: 3px;
     }
