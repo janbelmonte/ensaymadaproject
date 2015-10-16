@@ -2,10 +2,25 @@ body {
     background: #F8F4E5;
 }
 
+a,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #8B5742;
+}
+
 p {
     font-family: Harmonia Sans Pro Cyr;
     font-size: 16px;
     line-height: 38px;
+    letter-spacing: 1.3px;
+}
+
+h3 {
+    font-family: Bodoni-XT;
 }
 
 nav {
@@ -22,21 +37,25 @@ nav {
 
     #nav-logo {
         display: inline;
+        margin-left: 15px;
     }
 
     #navbar > ul {
         display: inline;
-        font-family: 'Harmonia-Bold';
+        font-family: Harmonia Sans Pro Cyr Semibd;
         list-style: none;
         max-width: 660px;
         float: right;
         margin: 20px 0;
+        padding: 0 30px;
     }
 
-    #navbar > ul > li {
+    #navbar > ul > li,
+    #navbar > ul > a > li {
+        font-family: Harmonia Sans Pro Cyr Semibd;
         text-transform: uppercase;
         display: inline;
-        margin-left: 48px;;
+        margin-left: 48px;
     }
 
     #cart-items-num {
@@ -71,10 +90,6 @@ nav {
     
     #story .text {
         padding-left: 60px;
-    }
-
-    #story p {
-        letter-spacing: 1px;
     }
 
 .squiggline {
@@ -154,20 +169,21 @@ input[type=text],
 input[type=email],
 input[type=number],
 textarea,
-input[type=submit] {
+input[type=submit],
+select {
     border: 3px solid #000;
-    border-radius: 0;    
+    border-radius: 0 !important;
     background: none;
     resize: none;
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
     outline: 0;
 }
 
 #item {
-    width: 960px;
     margin: 140px auto 0 auto;
 }
     #item h3 {
@@ -183,5 +199,11 @@ textarea:focus {
     }
 
     #item p {
-        letter-spacing: 1px;
+        font-size: 1.3em;
+    }
+
+    #item h4.price {
+        font-family: Harmonia Sans Pro Cyr Semibd;
+        letter-spacing: 6px;
+        margin-top: 15px;
     }

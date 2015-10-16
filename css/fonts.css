@@ -1,9 +1,14 @@
 @font-face {
     font-family: Harmonia Sans Pro Cyr;
-    src: url(fonts/HarmoniaSansProCyr-Regular.otf);
+    src: url(../fonts/HarmoniaSansProCyr-Regular.otf);
 }
 
 @font-face {
-    font-family: Harmonia-Bold;
-    src: url(/fonts/HarmoniaSansProCyr-Bold.otf);
+    font-family: Harmonia Sans Pro Cyr Semibd;
+    src: url(../fonts/HarmoniaSansProCyr-SemiBd.otf);
+}
+
+@font-face {
+    font-family: Bodoni-XT;
+    src: url(../fonts/BodoniXT.ttf);
 }
